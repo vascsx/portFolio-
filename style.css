@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none; 
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;        
+    background-color: #131212;
+}
+
+.navbar-li {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-li a {
+    padding-left: 22px ;
+}
+
+.navbar a {
+    color: #fff;
+    text-align: right;
+}
+
+.vasc-name {
+    font-family: 'Post No Bills Colombo ExtraBold', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 11px;
+    color: #fff;
+}
+
+
+
+
+/* 
+main content style */
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181616;
+}
+
+
+.main-content h2 {
+    padding-left: 25px;
+    font-family: 'Koulen', sans-serif; 
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(0, 98, 128);
+}
+
+.main-content h3 {
+    padding-left: 85px;
+    font-family: 'Koulen', sans-serif;    
+    font-size: 1.45rem;
+    color: #fff;
+    opacity: 33%;
+}
+
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+}
+
+.js-icon {
+    width: 35px;
+}
+
+.csharp-icon{
+    width: 35px;
+}
+
+
+.section-about {
+    display: flex;
+    flex-direction: row;
+    background-color: #131212;
+}
+
+
+
+.about {
+    font-family: 'Post No Bills Colombo ExtraBold', sans-serif;
+    color: aliceblue;
+    font-size: 1.1rem;
+    padding: 18px 0px;
+
+}
+
+.text-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .825rem;
+    padding: 2px;
+    color: #fff;
+}
+
+.perfil-about {
+    height: 200px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
