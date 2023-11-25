@@ -116,6 +116,22 @@ main content style */
 }
 
 
+.portfolio {
+    background-color: #676161;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 12px 10px;
+    color: #fff;
+}
+
+.icon-monitor{
+    width: 70px;
+    height: 150px;
+}
+
 
 
 
