@@ -123,18 +123,50 @@ main content style */
 
 /* portfolio */
 
-.portfolio-container {
-    display: flex;
-    flex-direction: column;
+.portfolio-container{
     background-color: #181616;
+    display: flex;
+    justify-content: space-around; /* Espaçamento igual entre as caixas */
+    align-items: flex-start; /* Alinhamento vertical no início */
+    flex-wrap: wrap; /* Quebra para a próxima linha */
+    padding: 20px; /* Espaçamento interno */
 }
 
 .box-portfolio {
-margin: 25px;
-width: 328px; /* Defina a largura desejada */
-height: 220px; /* Defina a altura desejada */
-background-color: #7e7777; 
--webkit-box-shadow: 6px 10px 22px 0px rgba(32,224,211,1);
--moz-box-shadow: 6px 10px 22px 0px rgba(32,224,211,1);
-box-shadow: 6px 10px 22px 0px rgba(32,224,211,1); 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px; /* Espaçamento inferior entre as caixas */
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+}
+
+/* Restante do seu CSS... */
+
+.conteudo {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: bottom 0.3s ease; 
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    box-sizing: border-box;
+}
+
+.icones img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.conteudo {
+    font-family: 'Poppins', sans-serif;
 }
