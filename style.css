@@ -26,6 +26,10 @@
     padding-left: 22px ;
 }
 
+.navbar-li a:hover {
+    color: aqua;
+}
+
 .navbar a {
     color: #fff;
     text-align: right;
@@ -126,10 +130,10 @@ main content style */
 .portfolio-container{
     background-color: #181616;
     display: flex;
-    justify-content: space-around; /* Espaçamento igual entre as caixas */
-    align-items: flex-start; /* Alinhamento vertical no início */
-    flex-wrap: wrap; /* Quebra para a próxima linha */
-    padding: 20px; /* Espaçamento interno */
+    justify-content: space-around; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    padding: 20px; 
 }
 
 .box-portfolio {
@@ -137,7 +141,7 @@ main content style */
     width: 200px;
     height: 200px;
     overflow: hidden;
-    margin-bottom: 20px; /* Espaçamento inferior entre as caixas */
+    margin-bottom: 20px; 
 }
 
 .imagem {
@@ -145,7 +149,6 @@ main content style */
     height: auto;
 }
 
-/* Restante do seu CSS... */
 
 .conteudo {
     position: absolute;
@@ -217,8 +220,14 @@ main content style */
     }
 
     .text-container p {
-      font-size: .455rem;
+      font-size: .725rem;
       padding-right: 30px;
+    }
+
+
+    .perfil-about {
+        width: 210px;
+        height: 200px;
     }
   }
 
@@ -226,14 +235,47 @@ main content style */
 
   @media (min-width: 1000px) {
 
+    .main-content h2 {
+        font-size: 2.85rem;
+        text-align: center;
+      }
+
+      .main-content h3 {
+        font-size: 1.75rem;
+        padding-left: 412px;
+      }
+
+
     .icons {
         display: flex;
         flex-direction: row;
-        justify-content:center ;
-        align-items: center;
+        padding-left: 50px;
     }
     .perfil {
         height: 560px;
         width: 580px;
     }
+
+
+    .perfil-about {
+        width: 500px;
+        height: 500px;
+    }
+
+    .text-container {
+        padding: 45px;
+    }
+    .text-container h3 {
+        font-size: 2.55rem;
+    }
+
+    .text-container p {
+        font-size: 1.55rem;
+    }
+
+
+    
+
   }
+
+
